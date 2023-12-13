@@ -1,0 +1,71 @@
+./account-financial-reporting:
+  remotes:
+    oca: https://github.com/OCA/account-financial-reporting.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./bank-statement-import:
+  remotes:
+    oca: https://github.com/OCA/bank-statement-import.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./product-attribute:
+  remotes:
+    oca: https://github.com/OCA/product-attribute.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./server-ux:
+  remotes:
+    oca: https://github.com/OCA/server-ux.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./web:
+  remotes:
+    oca: https://github.com/OCA/web.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./account-reconcile:
+  remotes:
+    oca: https://github.com/OCA/account-reconcile.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./currency:
+  remotes:
+    oca: https://github.com/OCA/currency.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./reporting-engine:
+  remotes:
+    oca: https://github.com/OCA/reporting-engine.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./storage:
+  remotes:
+    kobros-tech: https://github.com/kobros-tech/storage.git
+  target: kobros-tech oracle
+  depth: 1
+  merges:
+    - kobros-tech oracle
