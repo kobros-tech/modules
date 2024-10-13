@@ -34,8 +34,8 @@ msgid ""
 "specific.\" role=\"img\" aria-label=\"Values set here are company-specific."
 "\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"此处设置的值每公司不同\" role="
-"\"img\" aria-label=\"此处设置的值每公司不同\" groups=\"base."
+"<span class=\"fa fa-lg fa-building-o\" title=\"此处设置的值每公司不同\" "
+"role=\"img\" aria-label=\"此处设置的值每公司不同\" groups=\"base."
 "group_multi_company\"/>"
 
 #. module: currency_rate_update
@@ -192,7 +192,6 @@ msgstr "汇率更新服务提供商"
 
 #. module: currency_rate_update
 #: model:ir.actions.server,name:currency_rate_update.ir_cron_currency_rates_update_every_day_ir_actions_server
-#: model:ir.cron,cron_name:currency_rate_update.ir_cron_currency_rates_update_every_day
 msgid "Currency Rates Update (OCA) daily"
 msgstr "每日更新汇率"
 
@@ -285,12 +284,6 @@ msgid "Is Follower"
 msgstr "已关注"
 
 #. module: currency_rate_update
-#: model:ir.model.fields,field_description:currency_rate_update.field_res_currency_rate_provider____last_update
-#: model:ir.model.fields,field_description:currency_rate_update.field_res_currency_rate_update_wizard____last_update
-msgid "Last Modified on"
-msgstr "最后更新时间"
-
-#. module: currency_rate_update
 #: model:ir.model.fields,field_description:currency_rate_update.field_res_currency_rate_provider__last_successful_run
 msgid "Last Successful Update"
 msgstr "最后一次更新"
@@ -306,12 +299,6 @@ msgstr "最后更新者"
 #: model:ir.model.fields,field_description:currency_rate_update.field_res_currency_rate_update_wizard__write_date
 msgid "Last Updated on"
 msgstr "上次更新时间"
-
-#. module: currency_rate_update
-#: model:ir.model.fields,field_description:currency_rate_update.field_res_currency_rate__message_main_attachment_id
-#: model:ir.model.fields,field_description:currency_rate_update.field_res_currency_rate_provider__message_main_attachment_id
-msgid "Main Attachment"
-msgstr "主附件"
 
 #. module: currency_rate_update
 #: model:ir.model.fields,field_description:currency_rate_update.field_res_currency_rate__message_has_error
@@ -465,3 +452,9 @@ msgstr "网站沟通历史"
 #: model:ir.model.fields.selection,name:currency_rate_update.selection__res_currency_rate_provider__interval_type__weeks
 msgid "Week(s)"
 msgstr "周"
+
+#~ msgid "Last Modified on"
+#~ msgstr "最后更新时间"
+
+#~ msgid "Main Attachment"
+#~ msgstr "主附件"
