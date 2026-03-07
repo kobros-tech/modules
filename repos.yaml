@@ -62,6 +62,14 @@
   merges:
     - oca 18.0
 
+./server-env:
+  remotes:
+    oca: https://github.com/OCA/server-env.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
 ./storage:
   remotes:
     kobros-tech: https://github.com/kobros-tech/storage.git
