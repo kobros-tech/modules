@@ -77,3 +77,102 @@
   depth: 1
   merges:
     - kobros-tech oracle
+
+---
+# SaaS project repositories
+
+./e-commerce:
+  remotes:
+    oca: https://github.com/OCA/e-commerce.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./sale-workflow:
+  remotes:
+    oca: https://github.com/OCA/sale-workflow.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./sale-reporting:
+  remotes:
+    oca: https://github.com/OCA/sale-reporting.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./sale-promotion:
+  remotes:
+    oca: https://github.com/OCA/sale-promotion.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./odoo-pim:
+  remotes:
+    kobros-tech: https://github.com/kobros-tech/odoo-pim.git
+  target: kobros-tech oracle
+  depth: 1
+  merges:
+    - kobros-tech oracle
+
+./queue:
+  remotes:
+    oca: https://github.com/OCA/queue.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./server-auth:
+  remotes:
+    oca: https://github.com/OCA/server-auth.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./rest-framework:
+  remotes:
+    oca: https://github.com/OCA/rest-framework.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./connector:
+  remotes:
+    oca: https://github.com/OCA/connector.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./search-engine:
+  remotes:
+    oca: https://github.com/OCA/search-engine.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./social:
+  remotes:
+    oca: https://github.com/OCA/social.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
+
+./server-tools:
+  remotes:
+    oca: https://github.com/OCA/server-tools.git
+  target: oca 18.0
+  depth: 1
+  merges:
+    - oca 18.0
