@@ -175,3 +175,11 @@
   depth: 1
   merges:
     - oca 18.0
+
+./saas:
+  remotes:
+    kobros-tech: git@github.com:kobros-tech/saas.git
+  target: kobros-tech oracle
+  depth: 1
+  merges:
+    - kobros-tech 18.0
