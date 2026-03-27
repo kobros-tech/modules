@@ -2,7 +2,7 @@
   remotes:
     oca: https://github.com/OCA/storage.git
     kencove: https://github.com/kencove/storage.git
-    kobros-tech: https://github.com/kobros-tech/storage.git
+    kobros-tech: git@github.com:kobros-tech/storage.git
     acsone: https://github.com/acsone/storage.git
   target: kobros-tech oracle
   merges:

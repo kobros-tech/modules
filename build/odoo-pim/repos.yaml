@@ -2,7 +2,7 @@
   remotes:
     oca: https://github.com/OCA/odoo-pim.git
     kencove: https://github.com/kencove/odoo-pim.git
-    kobros-tech: https://github.com/kobros-tech/odoo-pim.git
+    kobros-tech: git@github.com:kobros-tech/odoo-pim.git
   target: kobros-tech oracle
   merges:
     - oca 18.0

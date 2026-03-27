@@ -1,0 +1,8 @@
+./oracle:
+  remotes:
+    oca: https://github.com/OCA/server-auth.git
+    kobros-tech: git@github.com:kobros-tech/server-auth.git
+  target: kobros-tech oracle
+  merges:
+    - oca 18.0
+    - oca refs/pull/868/head

@@ -72,7 +72,7 @@
 
 ./storage:
   remotes:
-    kobros-tech: https://github.com/kobros-tech/storage.git
+    kobros-tech: git@github.com:kobros-tech/storage.git
   target: kobros-tech oracle
   depth: 1
   merges:
@@ -114,7 +114,7 @@
 
 ./odoo-pim:
   remotes:
-    kobros-tech: https://github.com/kobros-tech/odoo-pim.git
+    kobros-tech: git@github.com:kobros-tech/odoo-pim.git
   target: kobros-tech oracle
   depth: 1
   merges:
@@ -130,11 +130,11 @@
 
 ./server-auth:
   remotes:
-    oca: https://github.com/OCA/server-auth.git
-  target: oca 18.0
+    kobros-tech: git@github.com:kobros-tech/server-auth.git
+  target: kobros-tech oracle
   depth: 1
   merges:
-    - oca 18.0
+    - kobros-tech oracle
 
 ./rest-framework:
   remotes:
