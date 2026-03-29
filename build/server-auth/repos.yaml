@@ -6,3 +6,6 @@
   merges:
     - oca 18.0
     - oca refs/pull/868/head
+    - oca refs/pull/917/head
+    - oca refs/pull/918/head
+    - oca refs/pull/919/head
